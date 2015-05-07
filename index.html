@@ -486,7 +486,7 @@
       })
       .done(function(data) {
         var earnings = data.earnings;
-        var goal = 500;
+        var goal = 1500;
         var percentage = Math.min(100, Math.round(earnings / goal * 100)) + "%";
 
         $("#patreon-status").text("$" + earnings + " / $" + goal);
